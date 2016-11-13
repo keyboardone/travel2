@@ -1,0 +1,70 @@
+.login_website{
+	background: transparent url(../img/login_bg.jpg) no-repeat center 195px;
+}
+.content{
+	width: 1200px;
+	height: 567px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content .register_panel{
+	width: 1140px;
+	height:400px ;
+	background: rgba(255,255,255,0.95);
+	border-radius: 5px;
+	padding: 30px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 18px;
+	color: #555;
+	position: relative;
+}
+.register_panel .register_panel_title{
+	font-size: 22px;
+	border-bottom: 1px solid #d9d9d9;
+	text-indent: 135px;
+	padding-bottom:10px ;
+}
+.register_panel_title span{
+	font-size: 14px;
+	position: absolute;
+	right: 288px;
+	top:40px;
+}
+.register_panel_conl{
+	width: 600px;
+	text-align: right;
+	margin-left: 25px;
+	margin-top:10px;
+	float: left;
+}
+.register_panel_conl input{
+	width: 400px;
+	height: 38px;
+	margin-bottom: 10px;
+}
+.register_panel .submitBTN{
+	background: #32b57c;
+	border: none 0;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	font-size: 22px;
+	margin: 20px 0 10px 0;
+	height: 46px;
+}
+.register_panel_conr{
+	float: left;
+	font-size: 10px;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.register_panel_conr h2{
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.register_panel_conr .img{
+	float: right;
+	margin-left: 20px;
+}

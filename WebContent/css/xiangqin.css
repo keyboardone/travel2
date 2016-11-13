@@ -1,0 +1,191 @@
+.content{
+	margin: 0px auto;
+	width: 100%;
+	background:#F7F7F7;
+	overflow: hidden;
+}
+.primaryInfo{
+	width: 1200px;
+	padding:20px 0 20px 20px;
+	background:#fff;
+	min-height: 470px;
+	margin: 15px auto;
+}
+.primaryInfo h1{
+	font:26px/120% "Microsoft Yahei UI","Microsoft Yahei",'微软雅黑','yahei',Verdana, Geneva, sans-serif;
+	color: #333;
+	margin-right: 20px;	
+}
+.primaryInfo h2{
+	font:18px/120% "Microsoft Yahei UI","Microsoft Yahei",'微软雅黑','yahei',Verdana, Geneva, sans-serif;
+	color: #999;
+	margin: 7px 20px 0 0;
+}
+.primaryInfo_panel{
+	margin-top: 25px;
+	min-height: 383px;
+}
+.FB_imgs{
+	margin-right: 54px;
+	width: 552px;
+}
+.L{
+	float: left;
+}
+.slider_box{
+	width: 552px;
+	height: 300px;
+	margin: 0 auto;
+}
+.slider_con li{
+	display: none;
+	list-style: none;
+}
+.slider_nav li{
+	list-style: none;
+	float: left;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.slider_nav li:first-child{
+	margin-left: 0;
+}
+.act{
+	opacity: 0.5;
+}
+.info_panel{
+	width: 574px;
+	position: relative;
+}
+.info_part1{
+	display: block;
+	background: #FF9D47;
+	width: 574px;
+	height:56px ;
+	padding: 0 10 0 32;
+	margin-bottom: 12px;
+	line-height: 56px;
+	text-indent: 2em;
+	color: white;
+	font-family: "宋体";
+}
+.info_part1 span{
+	font-size: 32px;
+	position: absolute;
+	top:5px;
+	left:40px;
+	font-weight:100;
+}
+.info_part1 i{
+	font-style: normal;
+	position: absolute;
+	right: 20px;
+	border-left: 1px solid gainsboro;
+}
+.info_part2 dl{
+	overflow: hidden;
+	margin-bottom:15px ;
+}
+.info_part2 dt{
+	float: left;
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	color: #7f7f7f;
+	text-align: right;
+	font-family: "宋体";
+}
+.info_part2 dd{
+	float: left;
+	width: 319px;
+	color: #333;
+	text-align: left;
+	margin-left: 15px;
+	font-family: "宋体";
+	line-height: 23px;
+}
+.info_part2 .bor{
+	border: 2px solid #FF9D47;
+	display: inline;
+	width: 100px;
+	text-align: center;
+}
+.jian,.plus{
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius:3px ;
+	cursor: pointer;
+}
+.input_box{
+	width: 50px;
+	height: 25px;
+	border: 1px solid #ccc;
+	list-style: none;
+}
+.input_box input{
+	border: none;
+	text-align: center;
+	width: 50px;/*必须*/
+	line-height: 23px;/*必须设置*/
+}
+.info_part2 .dl{
+	margin-bottom: 25px;
+}
+.info_part3 input{
+	width:130px;
+	height: 43px;
+	background: #FF9D47;
+	font-size: 24px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+.product{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	padding:20px 0 20px 20px;
+}
+.product_describe{
+	margin-bottom: 20px;
+}
+.product_describe .product_title{
+	border-left: 4px solid #13C3AD;
+	padding-left: 10px;
+}
+.product_title h1{
+	font-size: 26px;
+	color: #13C3AD;
+	font-weight: normal;
+}
+.product_title h2{
+	font-size: 14px;
+	font-weight: normal;
+	color: #13C3AD;
+}
+.product_cont{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.product_cont_tit{
+	color: #333333;
+	font-size: 20px;
+	border-bottom: 2px solid #13C3AD;
+	margin-top: 20px;
+	padding: 10px 0;
+	width: 1000px;
+}
+.product_cont .xiangqin_con{
+	text-indent: 2em;
+	font-size: 15px;
+	color: #333333;
+}
+.xuzhi{
+	color: #333;
+	line-height: 2em;
+}

@@ -1,0 +1,159 @@
+.content{
+	width:100%;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin: 0 auto;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+.heatsale{
+	background: white;
+	width: 1160px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 20px;
+}
+.commom_tit{
+	height: 54px;
+	position: relative;
+	border-bottom:1px solid #000 ;
+	margin-bottom: 20px;
+}
+.commom_tit>h1{
+	height: 30px;
+	line-height: 24px;
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	
+}
+.commom_tit>h2{
+	height: 24px;
+	line-height: 17px;
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+}
+.commom_more{
+	position: relative;
+	left:1100px;
+	top :-23px;
+	display: block;
+	width: 80px;
+	height: 31px;
+	text-decoration: none;
+	color: #000000;
+}
+.commom_cont{
+	width: 1160px;
+	overflow: hidden;
+}
+.commom_cont .commom_panel{
+	width: 1170px;
+	margin-left: -10px;
+	overflow: hidden;
+}
+ul.con_box{
+	width: 380px;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+}
+li{
+	list-style: none;
+}
+.con_box_img img{
+	display: block;
+	width: 380px;
+	height: 217px;
+}
+.con_info{
+	background: #F7F7F7;
+	width: 354px;
+	height: 60px;
+	padding: 10px 13px 25px;
+}
+.con_info h1 a{
+	font-size: 16px;
+	text-decoration: none;
+	height: 25px;
+	line-height: 25px;
+	color: #333;
+	overflow: hidden;
+}
+.con_info .con_price{
+	height: 30px;
+	width: 140px;
+	line-height: 30px;
+	background: #E74036;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 5px;
+}
+.con_info .con_price span{
+	font-size: 28px;
+	margin-right: 5px;
+}
+.commom_tit .title_nav{
+	position: absolute;
+	width: 840px;
+	height: 30px;
+	left: 220px;
+	top: 16px;
+}
+.title_nav ul li{
+	list-style: none;
+	float: left;
+	background: #ededed;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	text-align: center;
+	margin-left: 1px;
+	color: #333;
+	cursor: pointer;
+}
+.title_nav ul li:first-child{
+	margin-left: 0;
+}
+.title_nav .active{
+	color: #fff;
+	background: #3AC3AE;
+}
+#content >div{
+	display: none;
+}
+.commom_cont ul li{
+	list-style: none;
+	float: left;
+	margin-left: 1px;
+}
+.commom_cont ul li:first-child{
+	margin-left: 0;
+}
+.news{
+	overflow: hidden;
+	/*margin-left: 76px;*/
+	margin: 0 auto;
+	width:1200px;
+}
+.news .heatsale{
+	width: 555px;
+	
+}
+.L{
+	float: left;
+}
+.R{
+	float: right;
+}
+.news .news_cont a{
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #333;
+	text-indent:10px ;
+}

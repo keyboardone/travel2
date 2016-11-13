@@ -1,0 +1,237 @@
+
+.content{
+	width: 100%;
+	height: 567px;
+	position: relative;
+	background: url(../img/bg_cell_pattern.png)  center repeat;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.order{
+	width: 1200px;
+	margin: 20px auto;
+	height: 567px;
+}
+.order_left{
+	width: 250px;
+	height: 550px;
+	float: left;
+}
+.order_left_t{
+	height: 150px;
+	background: url(../img/member_none.gif) no-repeat 20px 20px;
+	background-color: white;
+	position: relative;
+}
+.order_left_t span{
+	position: absolute;
+	top: 60px;
+	left: 110px;
+}
+.order_left_f{
+	margin-top: 10px;
+	height: 375px;
+	background: #fafafa;
+
+}
+.order_left_f .order_f_tit{
+	padding:10px;
+	height:30px ;
+	line-height: 30px;
+	width: 240;
+	color: #333333;
+	border-bottom: 1px dotted #dcdcdc;
+	background: #F7F7F7;
+}
+.order_left_f ul{
+	margin-left: 50px;
+	font-size: 14px;
+}
+.order_left_f ul li{
+	margin-top: 10px;
+	list-style: none;
+	
+}
+.order_left_f ul li a:link,.order_left_f ul li a:visited{
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	height: 30px;
+	line-height: 30px;
+	width: 180px;
+	text-indent: 0.5em;
+
+}
+.order_left_f ul li a:hover,.order_left_f ul li a:active{
+	text-decoration: none;
+	display: block;
+	width: 180px;
+	background: #A0E1D9;
+	color:white ;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 0.5em;
+	border-radius: 3px;
+
+}
+/*.order_left_f ul:first-of-type li:first-child a{
+	background: #A0E1D9;
+	color:white ;
+}*/
+.order_right{
+	width: 940px;
+	min-height: 550px;
+	background: white;
+	float: right;
+}
+.order_right_content{
+	padding: 20px;
+}
+
+.order_right_content .headline{
+	border-bottom: 1px dotted #dcdcdc;
+	margin-bottom: 25px;
+	height: 48px;
+	
+}
+.headline h1{
+	font-size: 24px;
+	font-weight: normal;
+	color: #333;
+	
+}
+.order_right_content table{
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: #F7F7F7;
+}
+.order_right_content table tr th{
+	font: 14px "宋体";
+	color: #333;
+	height: 45px;
+	text-align: left;
+	text-indent:20px ;
+	background:#FFDE7D ;
+}
+.order_right_content table tr td{
+	font: 14px "宋体";
+	color: #333;
+	height: 45px;
+	text-align: left;
+	text-indent:20px ;
+}
+.order_right_content .sum{
+	margin: 200px 10px 10px 700px;
+	font-size: 22px;
+}
+.order_right_content .sum input{
+	border: none;
+	padding: 5px 20px;
+	font-size:22px ;
+	border-radius: 3px;
+	color: white;
+	background: #3AC3AE;
+	margin-top: 5px;
+}
+.order_right_content ul li{
+	letter-spacing: 0.5em;
+	margin-bottom: 10px;
+	list-style: none;
+	color: #333333;
+	padding: 10px;
+	width: 800px;
+	
+	position: relative;
+}
+.order_right_content ul li span{
+	letter-spacing: normal;
+}
+.order_right_content ul li a{
+	display: inline-block;
+	text-decoration: none;
+	background: #13C3AD;
+	color: white;
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	right: 80px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+}
+.tan_box{
+	width: 500px;
+	height: 300px;
+	background:#fff;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	margin-left: -150px;
+	margin-top: -75px;
+	display: none;
+	color: #555;
+	z-index: 3;
+}
+.tan_box h1{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dotted #DCDCDC;
+	font-size: 24px;
+	padding: 6px 0 0 15px;
+	font-weight: normal;
+}
+.close{
+	width: 20px;
+	height: 20px;
+	background: url(../img/15.png) no-repeat;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.tan_box .xiugai{
+	position: absolute;
+	left: 65px;
+	top: 80px;
+	
+}
+.tan_box .xiugai input{
+	width: 300px;
+	height: 40px;
+}
+.tan_box .xiugai01{
+	position: absolute;
+	left: 80px;
+	top: 150px;
+	
+}
+.tan_box .xiugai01 input{
+	width: 300px;
+	height: 40px;
+}
+.tan_box .tijaio{
+	position: absolute;
+	left: 130px;
+	top:200px
+}
+.tan_box .tijaio input{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background: #3AC3AE;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+}
+.transport{
+	width: 1349px;
+	height:1135px;
+	background-color: #000000;
+	opacity: 0.3;
+	display: none;
+	position: absolute;
+	z-index: 2;
+}

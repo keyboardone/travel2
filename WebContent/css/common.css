@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.top{
+	width: 100%;
+	height: 35px;
+	background-color: #f7f7f7;
+	font-size: 12px;
+	color: #999;
+	line-height: 35px;
+	position: relative;
+	z-index: 10;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.top_lt{
+	float: left;
+	text-indent: 70px;
+}
+.top_lt img{
+	vertical-align:middle;
+	margin-bottom: 3px;
+}
+.top_rt{
+	float: right;
+	margin-right: 20px;
+}
+.top_rt a{
+	color: #999;
+	text-decoration: none;
+}
+.top_rt .top_rt_tel{
+	border-left: 1px solid #999;
+	height: 35px;
+	display:inline-block ;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.top_rt .top_rt_hide{
+	border:1px dotted lightgray;
+	width: 200px;
+	display: none;	
+	margin-left:150px;
+	position: absolute;
+	z-index: 9999999;
+	background: #FFF;
+	height: 130px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.top_rt_hide_t{
+	border-bottom: 1px dotted #999;
+	padding-left: 15px;
+}
+.top_rt_hide_f{
+	line-height:1em;
+	padding: 15px;
+}
+.logo{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	background: url(../img/yay_newBg3_1.jpg) no-repeat 680px 0;
+	position: relative;
+	z-index: 1;
+}
+.logo_pic{
+	position: absolute;
+	top:19px;
+	left: 80px;
+}
+.search{
+	position: absolute;
+	top: 38px;
+	left:355px;
+	height: 38px;
+	width: 538px;
+	border: 2px solid #3AC3AE;
+}
+.search input{
+	width: 428px;
+	height: 34px;
+}
+.search span{
+	background: #3AC3AE;
+	display: block;
+	position: absolute;
+	top:0px;
+	left:430px ;
+	width:108px;
+	height:38px;
+	color: white;
+	text-align: center;
+	line-height: 38px;
+	font-size: 19px;
+	letter-spacing:5px;
+}
+.nav{
+	width: 100%;
+	background: #3AC3AE;
+	height: 40px;
+	line-height: 40px;
+	/*padding-left:80px ;*/
+}
+.nav ul{
+	margin-left:56px ;
+}
+.nav li{
+	float: left;
+	list-style-type: none;
+	/*margin-right: 50px;*/width: 95px;
+	text-align: center;
+	font-size: 14px;
+}
+.nav a:link,.nav a:visited{
+	color: white;
+	text-decoration: none;
+}
+.nav a:hover,.nav a:active{
+	display: block;
+	background: white;
+	text-decoration: none;
+	color:darkslategray
+}
+.ad{
+	height: 450px;
+	width: 100%;
+	overflow: hidden;/*当溢出.ad这个div则自动隐藏*/
+}
+.foot{
+	margin: 0 auto;
+	width: 100%;
+	background-color: #122C28;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.foot .foot_content{
+	position: relative;
+	margin: 18px 80px;
+	
+}
+.foot_content li{
+	float: left;
+	width: 150px;
+	list-style-type: none;
+	font-weight: bold;
+	line-height: 2em;
+}
+.foot_content a{
+	color: #d2d2d2;
+	text-decoration: none;
+	font-size: 14px;
+}
+.foot_content li ul li a{
+	font-size: 10px;
+	font-weight: normal;
+}
+.foot_content li ul li{
+	line-height: 1.2em;
+}
+.foot_content img{
+	margin-top:10px;
+	margin-left: 150px;
+}
+.foot_content span{
+	margin-left:155px ;
+	color: #D2D2D2;
+	font-size: 14px;
+}
+.foot_content .foot_content_pic{
+	position: absolute;
+	left:900px;
+}

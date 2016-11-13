@@ -1,0 +1,41 @@
+.login_website{
+	background: transparent url(../img/login_bg.jpg) no-repeat center 195px;
+}
+.content{
+	width: 1200px;
+	height: 567px;
+	position: relative;
+}
+.content .login_panel{
+	width:319px;
+	height: 430px;
+	position: absolute;
+	top:37px;
+	right:-100px;
+	background: rgba(255,255,255,0.95);
+	border-radius: 5px;
+	padding: 30px;
+}
+.login_panel h1{
+	font-size: 20px;
+	margin-bottom: 25px;
+	color: #333;
+	font-weight: normal;
+}
+.login_panel input{
+	width: 100%;
+	height: 38px;
+	margin-bottom: 10px;
+	
+}
+.login_panel .submitBTN{
+	background: #32b57c;
+	border: none 0;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	font-size: 22px;
+	margin: 20px 0 10px 0;
+	height: 46px;
+}
